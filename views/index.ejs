@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Celebration</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Happy Valentine's Day</h1>
+        <p>Celebrate love and joy with us!</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Welcome to our Valentine's Day Page</h2>
+            <p><i>Find special messages, love notes, and ideas to make this day unforgettable.</i></p>
+        </section>
+
+        <section class="gallery">
+            <h2 style="text-align: center;">Love Gallery</h2>
+            <div class="images">
+                <img src="valentine1.jpg" alt="Heart-shaped balloons">
+                <img src="valentine2.jpg" alt="Romantic dinner setup">
+                <img src="valentine3.jpg" alt="Couple holding hands">
+            </div>
+        
+        </section>
+
+        <section class="form">
+            
+            <form id="love-note-form" action="valentine1.jpg" method="GET">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="recipient">Recipient's Name:</label>
+                <input type="text" id="recipient" name="recipient" required>
+            
+                <label for="message" >Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            
+                
+                <li><a href="view-message.html"><button type="submit">Send</button></a></li>
+            </form>
+            
+
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 Valentine's Day Celebration. Spread the love!</p>
+    </footer>
+    <!-- <script>window.location.href = 'view-message.html';</script> -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
